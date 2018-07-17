@@ -1,0 +1,3 @@
+{
+"0":{"publicationId":"6b1f5ea3-e89c-495d-8064-9de705f73ca5","jobType":"sql_upload","jobName":"upload user table","source_server":"localhost","source_database":"stackOverflow","data_source_query":"SELECT  * FROM UserData", "id_query":"SELECT id from UserData", "targetDB":"tripdata","targetCollection":"trips","authentication":"trusted"}
+}

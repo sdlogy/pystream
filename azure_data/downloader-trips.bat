@@ -1,0 +1,1 @@
+dt.exe /s:DocumentDB /s.ConnectionString:AccountEndpoint=https://commdoc.documents.azure.com:443/;AccountKey=OZajaB52mTaNNsajNpRc70joPIiAVRIiRmk1ws7hxrQWUMlK4Wfe3bABBrO5BZ8WwtJxsbdgh4JtdUbx3UzSaQ==;Database=tripdata /s.Collection:trips /s.InternalFields /s.Query:"select * from trips as tr  where tr._ts > 1531850480"  /t:JsonFile /t.File:output-trips.json /t.Overwrite
